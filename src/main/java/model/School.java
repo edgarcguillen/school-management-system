@@ -27,6 +27,8 @@ public class School {
         this.totalEarnings = totalEarnings;
     }
 
+    public School(){};
+
     // create map of -> department name : department details
     // will pass in department-database file
 
