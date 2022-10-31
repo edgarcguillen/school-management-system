@@ -1,12 +1,12 @@
-1111|Jane Goodall|50000.00|Primatology|4
-1112|Dorothy Hodgkin|90000.00|Chemistry|5
-1113|Ada Lovelace|75000.00|Computer Science|6
-1121|Ann Kiessling|90000.00|Biology|7
-1122|Barbara Liskov|75000.00|Computer Science|4
-1123|Cecilia Payne-Gaposchkin|45000.00|Astrology|5
-1211|Edith Clarke|75000.00|Electrical Engineering|6
-1222|Eliza Murfey|100000.00|Medicine|7
-1233|Emmy Noether|60000.00|Mathematics|4
-2111|Flossie Wong-Staa|100000.00|Medicine|5
-2222|Gertrude Belle Elion|95000.00|Pharmacology|6
-2333|Giuliana Tesoro|90000.00|Chemistry|7
+1111|Jane Goodall|Primatology|3.95|50000.00|4
+1112|Dorothy Hodgkin|Chemistry|3.95|90000.00|5
+1113|Ada Lovelace|Computer Science|3.85|75000.00|6
+1121|Ann Kiessling|Biology|3.90|90000.00|7
+1122|Barbara Liskov|Computer Science|4.0|75000.00|4
+1123|Cecilia Payne-Gaposchkin|Astrology|3.90|45000.00|5
+1211|Edith Clarke|Electrical Engineering|3.87|75000.00|6
+1222|Eliza Murfey|Medicine|4.0|100000.00|7
+1233|Emmy Noether|Mathematics|3.99|60000.00|4
+2111|Flossie Wong-Staa|Medicine|3.79|100000.00|5
+2222|Gertrude Belle Elion|Pharmacology|3.84|95000.00|6
+2333|Giuliana Tesoro|Chemistry|3.96|90000.00|7

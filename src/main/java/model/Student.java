@@ -1,3 +1,5 @@
+package model;
+
 import java.math.BigDecimal;
 
 /**
@@ -8,19 +10,19 @@ public class Student {
 
     private int id;
     private String studentName;
-    private String majorName;
+    private String degreeOfStudy;
     private double gpa;
     private BigDecimal feesOwed;
     private BigDecimal feesPaid;
     private int currentSemester;
 
-    public Student(int id, String studentName, String majorName, double gpa, BigDecimal feesOwed, BigDecimal feesPayed, int currentSemester) {
+    public Student(int id, String studentName, String degreeOfStudy, double gpa, BigDecimal feesOwed, BigDecimal feesPaid, int currentSemester) {
         this.id = id;
         this.studentName = studentName;
-        this.majorName = majorName;
+        this.degreeOfStudy = degreeOfStudy;
         this.gpa = gpa;
         this.feesOwed = feesOwed;
-        this.feesPaid = new BigDecimal(0);
+        this.feesPaid = feesPaid;
         this.currentSemester = currentSemester;
     }
 
@@ -32,8 +34,8 @@ public class Student {
         return studentName;
     }
 
-    public String getMajorName() {
-        return majorName;
+    public String getDegreeOfStudy() {
+        return degreeOfStudy;
     }
 
     public double getGpa() {
@@ -51,16 +53,4 @@ public class Student {
     public int getCurrentSemester() {
         return currentSemester;
     }
-
-
-    // used to update grade of student
-    public void setGpa(double gpa) {
-        this.gpa = gpa;
-    }
-
-    // used to update fees payed
-    public void setFeesOwed(BigDecimal feesPaid){
-        feesOwed = feesOwed.subtract(feesPaid);
-    }
-
 }
