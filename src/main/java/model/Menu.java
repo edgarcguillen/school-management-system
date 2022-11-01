@@ -31,8 +31,6 @@ public class Menu {
 
 
 
-
-
     public void pause() {
         System.out.println("\n(Or press Enter to return to the main menu...)");
         scanner.nextLine();

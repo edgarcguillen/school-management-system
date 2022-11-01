@@ -13,7 +13,6 @@ public class Main {
     private final School school = new School();
     private final Student student = new Student();
     private File degreeFile = new File("degree-database.csv");
-    private File schoolFile = new File("school-database.csv");
 
     public static void main(String[] args) {
         Main main = new Main();
@@ -37,6 +36,8 @@ public class Main {
                 // handle student selection
             } else if (menuSelection == 2) {
                 // list school details
+                handleSchoolDetails();
+
             } else if (menuSelection == 3) {
                 // list degree details
             } else if (menuSelection == 0) {
@@ -58,6 +59,17 @@ public class Main {
             promptForStudentSelection();
         } else {
             System.out.println("Error printing student list");;
+        }
+    }
+
+    private void handleSchoolDetails() {
+        // List all students
+        Map<String,School> schoolMap = school.mapOfSchool();
+        if (!schoolMap.isEmpty()) {
+            school.printSchoolDetails(schoolMap);
+            //promptForStudentSelection();
+        } else {
+            System.out.println("Error displaying school details");;
         }
     }
 
